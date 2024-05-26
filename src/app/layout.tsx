@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { QueryProvider } from "@/providers/query-provider";
+import SheetProvider from "@/providers/sheet-provider";
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -35,9 +36,10 @@ export default function RootLayout({
               enableSystem
               disableTransitionOnChange
             >
+              <SheetProvider />
               {children}
+              <Toaster richColors={true} position="bottom-right" closeButton />
             </ThemeProvider>
-            <Toaster richColors={true} position="bottom-right" closeButton />
           </QueryProvider>
         </body>
       </html>

@@ -1,9 +1,3 @@
-const AccountsPage = () => {
-  return (
-    <div>
-      <h1 className="text-2xl text-center">Accounts Page</h1>
-    </div>
-  );
-};
+import AccountsScreen from "@/features/accounts/screen/account.screen";
 
-export default AccountsPage;
+export default AccountsScreen;

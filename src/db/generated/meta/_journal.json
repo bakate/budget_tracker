@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1715554509260,
+      "tag": "0000_dear_ogun",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1715556242315,
+      "tag": "0001_first_mikhail_rasputin",
+      "breakpoints": true
+    }
+  ]
+}
