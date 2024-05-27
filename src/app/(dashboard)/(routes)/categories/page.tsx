@@ -1,9 +1,3 @@
-const CategoriesPage = () => {
-  return (
-    <div>
-      <h1 className="text-2xl text-center">Categories page is coming soon!</h1>
-    </div>
-  );
-};
+import CategoriesScreen from "@/features/categories/screen/categories-screen";
 
-export default CategoriesPage;
+export default CategoriesScreen;

@@ -15,6 +15,13 @@
       "when": 1715556242315,
       "tag": "0001_first_mikhail_rasputin",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1716779684155,
+      "tag": "0002_opposite_magus",
+      "breakpoints": true
     }
   ]
 }
