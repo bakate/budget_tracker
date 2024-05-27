@@ -1,5 +1,6 @@
 import { ClerkLoaded, ClerkLoading, UserButton } from "@clerk/nextjs";
 import { Loader2 } from "lucide-react";
+import Filters from "./filters";
 import HeaderLogo from "./header-logo";
 import { ModeToggle } from "./mode-toggle";
 import Navigation from "./navigation";
@@ -25,7 +26,7 @@ const Header = () => {
           </div>
         </div>
         <WelcomeMsg />
-        {/* TODO add filters */}
+        <Filters />
       </div>
     </nav>
   );

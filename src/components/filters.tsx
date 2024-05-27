@@ -1,5 +1,5 @@
 import AccountFilter from "./account-filter";
-import DateFilter from "../features/summary/components/date-filter";
+import DateFilter from "./date-filter";
 
 const Filters = () => {
   return (

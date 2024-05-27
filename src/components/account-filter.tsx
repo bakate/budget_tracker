@@ -1,6 +1,7 @@
 "use client";
-import { useGetAccounts } from "@/features/accounts/api/use-get-accounts";
-import { useGetSummary } from "@/features/summary/api/use-get-summary";
+
+import { useGetAccounts } from "@/features/accounts/data/use-get-accounts";
+import { useGetSummary } from "@/features/summary/data/use-get-summary";
 import { SelectValue } from "@radix-ui/react-select";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import qs from "query-string";
