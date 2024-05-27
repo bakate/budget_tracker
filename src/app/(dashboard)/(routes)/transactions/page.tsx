@@ -1,9 +1,3 @@
-const TransactionsPage = () => {
-  return (
-    <div>
-      <h1 className="text-2xl text-center">Transactions</h1>
-    </div>
-  );
-};
+import TransactionsScreen from "@/features/transactions/screen/transactions.screen";
 
-export default TransactionsPage;
+export default TransactionsScreen;
